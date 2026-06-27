@@ -5,7 +5,7 @@ function decode(component) {
 	return decodeURIComponent(component);
 }
 const hostInfo = {
-	version: "bb4b6ba",
+	version: "d4df5d8",
 	scopeCanvas: JSON.parse("true"),
 };
 const projectIdRegex = /^\/projects\/(?<prefix>(?:(?:[A-Za-z0-9]+-)*[A-Za-z0-9]+--)?)(?<id>[A-Za-z0-9]{20})(?<accessToken>(?:-[A-Za-z0-9]+)?)/;
